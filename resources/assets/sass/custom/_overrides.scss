@@ -1,0 +1,35 @@
+.navbar-brand > img {
+  max-width: 75px;
+  margin: -.5em 0;
+}
+
+.btn-success {
+  color: #fff;
+}
+
+%white-i {
+  td i {
+    color: #fff;
+  }
+}
+
+.license_expired {
+  background-color: #f7c4cc;
+  td, td a {
+    color: #b60b26;
+  }
+  @extend %white-i;
+}
+
+.license_expiring {
+  background-color: #f7fad5;
+  td, td a {
+    color: #8f9b09;
+  }
+  @extend %white-i;
+}
+
+.bootstrap-select .btn.dropdown-toggle {
+  background-color: transparent;
+  border: 1px solid #ced4da;
+}

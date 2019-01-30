@@ -1,0 +1,27 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'bootstrap-select.1.13.min';
+
+// Overrides
+@import "custom/overrides";
+
+.navbar-laravel {
+  // background-color: #7ea4b3;
+  background-color: $lightblue;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+
+  .navbar-nav .nav-link {
+    color: #fff;
+    &:hover {
+      color: #fff;
+    }
+  }
+}
